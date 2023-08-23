@@ -1,8 +1,30 @@
-
 void setup(){
-  //some of your code here
+size(500,500);
 }
-void draw(){
-  //more of your code here
+void draw() {
+  background(194, 240, 240);
+fill(255, 120, 0);
+triangle(294,250,360,190,360,320);
+fill(255, 166, 77);
+triangle(130,250,326,140,326,370);
+fill(255, 204, 51);
+arc(130,250,200,200,-PI/6,PI/5.6);
+fill(255,255,255);
+ellipse(185,235,30,30);
+fill(0,0,0);
+ellipse(185,235,15,15);
+fill(255, 140, 26);
+triangle(250,250,290,210,290,295);
+fill(128, 229, 255);
+ellipse(130,100,20,20);
+fill(128, 229, 255);
+ellipse(70,140,20,20);
+fill(128, 229, 255);
+ellipse(105,200,20,20);
+fill(255, 255, 255);
+ellipse(133,97,5,5);
+fill(255, 255, 255);
+ellipse(72,138,5,5);
+fill(255, 255, 255);
+ellipse(103,198,5,5);
 }
-
